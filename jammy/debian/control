@@ -1,9 +1,9 @@
 Source: gazebo11
-Standards-Version: 3.9.5
 Maintainer: Nate Koenig <nate@osrfoundation.org>
 Section: science
 Priority: extra
 Build-Depends: cmake,
+               bash-completion,
                pkg-config,
                debhelper-compat (= 13),
                dh-sequence-bash-completion,
