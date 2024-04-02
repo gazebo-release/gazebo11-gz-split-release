@@ -1,4 +1,9 @@
-usr/bin/gz*
+# no gz binary alone, that is handled by the gazebo11-gz-cli package
+usr/bin/gz11
+usr/bin/gz-*
+usr/bin/gzclient*
+usr/bin/gzserver*
+usr/bin/gzprop*
 usr/bin/gazebo*
 usr/share/gazebo/*
 usr/share/gazebo-*/setup.*sh
