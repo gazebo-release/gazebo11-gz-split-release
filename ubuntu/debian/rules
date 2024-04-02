@@ -44,7 +44,10 @@ override_dh_auto_configure:
 	#dh_auto_build -- doc
 
 override_dh_install:
-	dh_install -- # Install.
+	# renamte gz to gz11 to install it in the gazebo11 package
+	# /usr/bin/gz is handled by the gazebo11-gz-cli package
+	mv debian/tmp/usr/bin/gz debian/tmp/usr/bin/gz11
+	dh_install -- # Install
 
 	# Install icon
 	mkdir -p debian/gazebo11/usr/share/icons/hicolor/scalable/apps/
