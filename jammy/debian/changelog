@@ -1,144 +1,80 @@
-gazebo11 (11.14.0-1~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~beta1) jammy; urgency=medium
 
-  * gazebo11 11.14.0-1 release
+  * Provides for non versioned packages
 
- -- Steve Peters <scpeters@openrobotics.org>  Mon, 09 Oct 2023 20:25:58 +0000
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 21 Jun 2024 17:19:44 +0200
 
-gazebo11 (11.13.0-1~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~alpha12) jammy; urgency=medium
 
-  * gazebo11 11.13.0-1 release
+  * No hard dependency of gazebo on cli package
 
- -- Steve Peters <scpeters@openrobotics.org>  Fri, 26 May 2023 19:06:19 +0000
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 19 Apr 2024 20:20:03 +0200
 
-gazebo11 (11.12.0-1~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~alpha11) jammy; urgency=medium
 
-  * gazebo11 11.12.0-1 release
+  * Fix pattern 
 
- -- Steve Peters <scpeters@openrobotics.org>  Fri, 16 Sep 2022 13:05:27 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 22 Mar 2024 18:28:41 +0100
 
-gazebo11 (11.11.0-1~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~alpha10) jammy; urgency=medium
 
-  * gazebo11 11.11.0-1 release
+  * Handled gz11 binary in d/rules
 
- -- Steve Peters <scpeters@openrobotics.org>  Fri, 27 May 2022 16:56:37 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 22 Mar 2024 16:11:00 +0100
 
-gazebo11 (11.10.2-1~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~alpha9) jammy; urgency=medium
 
-  * gazebo11 11.10.2-1 release
+  * Missing files in gz-cli packageº
 
- -- Steve Peters <scpeters@openrobotics.org>  Fri, 18 Mar 2022 21:45:03 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 21 Mar 2024 18:03:47 +0100
 
-gazebo11 (11.10.1-1~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~alpha8) jammy; urgency=medium
 
-  * gazebo11 11.10.1-1 release
+  * Remove gz from gazebo package
 
- -- Steve Peters <scpeters@openrobotics.org>  Thu, 20 Jan 2022 12:03:36 -0800
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 21 Mar 2024 15:44:24 +0100
 
-gazebo11 (11.10.0-1~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~alpha7) jammy; urgency=medium
 
-  * gazebo11 11.10.0-1 release
+  * Fix B+R for 11.14.0 no 11.15.0
 
- -- Steve Peters <scpeters@openrobotics.org>  Wed, 12 Jan 2022 18:06:16 -0800
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 19 Mar 2024 19:08:40 +0100
 
-gazebo11 (11.9.1-1~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~alpha6) jammy; urgency=medium
 
-  * gazebo11 11.9.1-1 release
+  * Move ttf-dejavu-core to real fonts-dejavu-core in gazebo-common
+  * Add B+R on all packages
+  * Create a gazebo transitional package
 
- -- Steve Peters <scpeters@openrobotics.org>  Thu, 02 Dec 2021 15:44:35 -0800
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 15 Mar 2024 17:10:59 +0100
 
-gazebo11 (11.9.0-1~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~alpha5) jammy; urgency=medium
 
-  * gazebo11 11.9.0-1 release
+  * Missing gz-cli package in d/control
 
- -- Steve Peters <scpeters@openrobotics.org>  Thu, 28 Oct 2021 07:35:00 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 11 Mar 2024 16:16:32 +0100
 
-gazebo11 (11.8.1-1~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~alpha4) jammy; urgency=medium
 
-  * gazebo11 11.8.1-1 release
+  * Now use the dependencies from debian salsa
 
- -- Steve Peters <scpeters@openrobotics.org>  Tue, 24 Aug 2021 21:06:08 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 08 Mar 2024 18:55:19 +0100
 
-gazebo11 (11.8.0-2~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~alpha3) jammy; urgency=medium
 
-  * gazebo11 11.8.0-2 release
+  * Use math unversioned package from jammy.
 
- -- Steve Peters <scpeters@openrobotics.org>  Wed, 18 Aug 2021 08:27:01 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 08 Mar 2024 18:21:16 +0100
 
-gazebo11 (11.8.0-1~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~alpha2) jammy; urgency=medium
 
-  * gazebo11 11.8.0-1 release
+  * Do not use -profiler. Not having it on jammy.
 
- -- Steve Peters <scpeters@openrobotics.org>  Tue, 17 Aug 2021 17:13:14 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 08 Mar 2024 18:08:55 +0100
 
-gazebo11 (11.7.0-1~focal) focal; urgency=medium
+gazebo11 (11.14.0-1~alpha1) jammy; urgency=medium
 
-  * gazebo11 11.7.0-1 release
+  * Testing packaging
 
- -- Steve Peters <scpeters@openrobotics.org>  Wed, 30 Jun 2021 05:26:30 -0700
-
-gazebo11 (11.6.0-1~focal) focal; urgency=medium
-
-  * gazebo11 11.6.0-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 10 Jun 2021 12:12:09 +0200
-
-gazebo11 (11.5.1-1~focal) focal; urgency=medium
-
-  * gazebo11 11.5.1-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 06 May 2021 12:29:26 +0200
-
-gazebo11 (11.5.0-1~focal) focal; urgency=medium
-
-  * gazebo11 11.5.0-1 release
-
- -- Steve Peters <scpeters@openrobotics.org>  Tue, 20 Apr 2021 10:00:59 -0700
-
-gazebo11 (11.4.0-1~focal) focal; urgency=medium
-
-  * gazebo11 11.4.0-1 release
-
- -- Steve Peters <scpeters@openrobotics.org>  Thu, 01 Apr 2021 18:17:46 -0700
-
-gazebo11 (11.3.0-1~focal) focal; urgency=medium
-
-  * gazebo11 11.3.0-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 26 Nov 2020 12:14:34 +0100
-
-gazebo11 (11.2.0-1~focal) focal; urgency=medium
-
-  * gazebo11 11.2.0-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 01 Oct 2020 23:03:27 +0200
-
-gazebo11 (11.1.0-1~focal) focal; urgency=medium
-
-  * gazebo11 11.1.0-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 12 Aug 2020 19:47:08 +0200
-
-gazebo11 (11.1.0~pre1-1~focal) focal; urgency=medium
-
-  * gazebo11 11.1.0~pre1-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 12 Aug 2020 13:46:43 +0200
-
-gazebo11 (11.0.0-2~focal) focal; urgency=medium
-
-  * gazebo11 11.0.0-2 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 30 Mar 2020 16:43:44 +0200
-
-gazebo11 (11.0.0-2~focal) focal; urgency=medium
-
-  * gazebo11 11.0.0-2 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 30 Mar 2020 16:43:38 +0200
-
-gazebo11 (11.0.0-1~focal) focal; urgency=medium
-
-  * gazebo11 11.0.0-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Thu, 30 Jan 2020 17:58:27 -0800
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 08 Mar 2024 17:46:29 +0100
 
